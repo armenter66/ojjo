@@ -1,0 +1,43 @@
+@import "libs/bootstrap-reboot.min";
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/general";
+@import "base/shop";
+@import "base/catalogue";
+@import "base/contacts";
+
+@import "base/media";
+
+.container {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 20px;
+  font-family: Noto Serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  &_black {
+    color: #333333;
+  }
+  &_white {
+    color: #fff;
+  }
+}
+
+.subtitle {
+  font-family: Noto Serif;
+  font-weight: normal;
+  font-size: 21px;
+  text-align: center;
+  &_black {
+    color: #333333;
+  }
+  &_white {
+    color: #fff;
+  }
+}
